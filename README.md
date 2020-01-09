@@ -4,9 +4,9 @@ Tutorial from https://fireship.io/courses/cloud-functions/firestore-onupdate/
 
 Setup:
 
-1. Install nvm and use node v8.
+1. Install nvm and use node v10.
     ```sh
-    $ nvm use v8.0.0
+    $ nvm use v10
     ```
 1. Build once
     ```sh
