@@ -15,15 +15,20 @@
   },
   "main": "lib/index.js",
   "dependencies": {
+    "@google-cloud/storage": "^4.2.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "firebase-admin": "^8.6.0",
-    "firebase-functions": "^3.3.0"
+    "firebase-functions": "^3.3.0",
+    "fs-extra": "^8.1.0",
+    "sharp": "^0.23.4",
+    "twilio": "^3.39.2"
   },
   "devDependencies": {
+    "@types/fs-extra": "^8.0.1",
+    "firebase-functions-test": "^0.1.6",
     "tslint": "^5.12.0",
-    "typescript": "^3.2.2",
-    "firebase-functions-test": "^0.1.6"
+    "typescript": "^3.2.2"
   },
   "private": true
 }
